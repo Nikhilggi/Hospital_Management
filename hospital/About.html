@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="home.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 8px;
+    }
+
+    .about-section {
+      padding: 50px;
+      text-align: center;
+      background-color: #474e5d;
+      color: white;
+    }
+
+    .container {
+      padding: 0 16px;
+    }
+
+    .container::after,
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .title {
+      color: grey;
+    }
+
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div style="width:10% ;float: right; ">
+    <a href="IMG/logo bihar.png ">
+      <img src="IMG/logo bihar.png" alt="" height="70px;" width="70px">
+    </a>
+  </div>
+  <div style="width:5% ;float: left;margin-left: 5%;">
+    <a href="IMG/logo bihar.png ">
+      <img src="IMG/logo bihar.png" alt="" height="70px;" width="70px">
+    </a>
+  </div>
+  <div style="width:85% ;margin:0 auto;">
+    <a href="home.html" style="text-align:center ;text-decoration: none;">
+      <h1><b>Health Department,Government of Bihar</b></h1>
+    </a>
+  </div>
+  <br>
+  <br>
+  <nav>
+    <div class="topnav" id="myTopnav">
+      <a href="home.html" style="text-decoration: none;">Home</a>
+      <a href="Medicines.html" style="text-decoration: none;">Medicines</a>
+      <a href="Bed_Book.php" style="text-decoration: none;">Bed Book</a>
+      <a href="contact.php" style="text-decoration: none;">Contact Us</a>
+      <a href="About.html" style="text-decoration: none;">About</a>
+      <a href="log_in.php" style="text-decoration: none;"> Log In</a>
+      <a href="register_user.php" style="text-decoration: none;"> Sing Up</a>
+    </div>
+  </nav>
+  <br><br>
+
+  <div class="about-section">
+    <h1>About Us </h1>
+    <p style="color: red; font-size: 50px;">1st Floor, Vikas Bhawan, Bailey Road, Patna - 800015.</p>
+
+    <p style="color:#000; font-size: 30px;"> Health Department is working towards providing health care to the last
+      household and to the last person of the state ,i.e. Health Department is totally committed in building healthy
+      people, not only by making available quality Medicare facilities at the door step of every citizen in the remotest
+      corner of the state, but also by providing medical facilities of the highest order, keeping pace with rapid
+      technological developments in the field of medicine.</p>
+  </div>
+  <br><br>
+
+  <div class="row">
+    <div class="column">
+
+    </div>
+
+    <div class="column">
+      <div class="card">
+       <center>
+        <img src="IMG/myimage.jpg" alt="Mike" style=" height: 300px; width: 300px;;border-radius: 100px;">
+        <div class="container">
+          <h2>Web Developer</h2>
+          <p class="title">Nikhil Kumar</p>
+          <p>nikhilkumar89535@gmail.com</p>
+       </center>
+         <a href="my_contact.html"> <p><button class="button">Contact</button></p></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+
+    </div>
+  </div>
+  <br><br><br><br>
+  <hr>
+  <center>
+    <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by Nikhil</p>
+  </center><br>
+
+
+
+</body>
+
+</html>

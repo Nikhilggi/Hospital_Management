@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="home.css">
+	<title>Home</title>
+	<style>
+		body {
+			background-color: #b3f0ff;
+		}
+	</style>
+</head>
+
+<body>
+	<div style="width:10% ;float: right; ">
+		<a href="IMG/logo bihar.png ">
+			<img src="IMG/logo bihar.png" alt="" height="70px;" width="70px">
+		</a>
+	</div>
+	<div style="width:5% ;float: left;margin-left: 5%;">
+		<a href="IMG/logo bihar.png ">
+			<img src="IMG/logo bihar.png" alt="" height="70px;" width="70px">
+		</a>
+	</div>
+	<div style="width:85% ;margin:0 auto;">
+		<a href="home.html" style="text-align:center ;text-decoration: none;">
+			<h1><b>Health Department,Government of Bihar</b></h1>
+		</a>
+	</div>
+	<br>
+	<br>
+	<!--navigation Start-->
+	<nav>
+		<div class="topnav" id="myTopnav">
+			<a href="home.html">Home</a>
+			<a href="medicine.html">Medicines</a>
+			<a href="Bed_Book.php">
+				<button style="background-color: #888;">Bed Book</button>
+
+			</a>
+			<a>
+				<!-- Trigger/Open The Modal -->
+				<button id="myBtn" name="btn" style="height: 32px; width: 150px;background-color: #888;">Hospital
+					Name</button>
+
+				<!-- The Modal -->
+				<div id="myModal" class="modal">
+
+					<!-- Modal content -->
+					<div class="modal-content" id="hospital">
+						<span class="close">&times;</span>
+						<div class="container" style="background-color:black">
+							<div class="row" style="height: 800px;">
+								<div class="col-sm-4">
+									<h5 style="color:red;">Name of Sadar Hospital</h5>
+									<a href="https://aurangabad.bih.nic.in/public-utility/hospitals/"
+										style="text-decoration:none;">Sadar Hospital Aurangabad </a>
+									<a href="https://begusarai.nic.in/hi/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A5%8D%E0%A4%AF/"
+										style="text-decoration:none;">Sadar Hospital Begusarai </a>
+									<a href="https://bhagalpur.nic.in/public-utility/district-hospital/"
+										style="text-decoration:none;">Sadar Hospital Bhagalpur </a>
+									<a href="https://bhojpur.nic.in/public-utility/sadar-hospital-ara/"
+										style="text-decoration:none;">Sadar Hospital Bhojpur </a>
+									<a href="https://eastchamparan.nic.in/public-utility/sadar-hospital-motihari/"
+										style="text-decoration:none;">Sadar Hospital Champaran East </a>
+									<a href="https://westchamparan.nic.in/public-utility/mjk-hospitalbettiah/"
+										style="text-decoration:none;">M.J.K. Sadar Hos.Bettiah Champaran West
+									</a>
+									<a href="https://gaya.nic.in/public-utility-category/hospitals/"
+										style="text-decoration:none;"> Pilgrim Hospital Gaya</a>
+									<a href="https://gopalganj.nic.in/public-utility/sadar-hospital-gopalganj/"
+										style="text-decoration:none;">Sadar Hospital Gopalganj </a>
+									<a href="https://jehanabad.nic.in/en/public-utility/sadar-hospital-jehanabad/"
+										style="text-decoration:none;">Sadar Hospital Jehanabad</a>
+									<a href="https://katihar.nic.in/public-utility-category/hospitals/"
+										style="text-decoration:none;">Sadar Hospital Katihar</a>
+									<a href="https://khagaria.nic.in/public-utility/sadar-hospital/"
+										style="text-decoration:none;">Sadar Hospital Khagaria </a>
+									<a href="https://madhepura.nic.in/public-utility/sadar-hospital-madhepura/"
+										style="text-decoration:none;">Sadar Hospital Madhepura </a>
+								</div>
+								<div class="col-sm-4">
+
+									<a href="https://munger.nic.in/public-utility-category/sadar-hospital-munger/"
+										style="text-decoration:none;">Sadar Hospital Munger </a>
+									<a href="https://muzaffarpur.nic.in/public-utility/sadar-hospital/"
+										style="text-decoration:none;">Sadar Hospital Muzaffarpur</a>
+									<a href="https://nalanda.nic.in/en/public-utility -category/hospitals/"
+										style="text-decoration:none;">Sadar Hospital Nalanda</a>
+									<a href="https://nawada.nic.in/public-utility/sadar-hospital-nawada/"
+										style="text-decoration:none;">Sadar Hospital Nawada</a>
+									<a href="https://nawada.nic.in/public-utility/sadar-hospital-nawada/"
+										style="text-decoration:none;">Sadar Hospital Purnia</a>
+									<a href="https://patna.nic.in/public-utility-category/hospital/"
+										style="text-decoration:none;">Sadar Hospital Patna</a>
+									<a href="https://rohtas.nic.in/public-utility/sadar-hospital-sasaram/"
+										style="text-decoration:none;">Sadar Hospital Rohtas </a>
+									<a href="https://saharsa.nic.in/public-utility/sadar-hospital/"
+										style="text-decoration:none;">Sadar Hospital Saharas </a>
+									<a href="https://samastipur.nic.in/health/" style="text-decoration:none;">Sadar
+										Hospital Samastipur</a>
+									<a href="https://saran.nic.in/public-utility/sadar-hospital/"
+										style="text-decoration:none;">Sadar Hospital Saran</a>
+									<a href="https://sitamarhi.nic.in/public-utility-category/hospitals/page/2/"
+										style="text-decoration:none;">Sadar Hospital Sitamarhi </a>
+									<a href="https://siwan.nic.in/public-utility/sadar-hospital-siwan/"
+										style="text-decoration:none;">Sadar Hospital Siwan</a>
+									<a href="https://vaishali.nic.in/public-utility-category/hospitals/"
+										style="text-decoration:none;">Sadar Hospital Vaishali </a>
+
+								</div>
+								<div class="col-sm-4">
+									<h5 style="color:red;">Name of Newly created Dermatitis herpetiformis </h5>
+									<a href="https://araria.nic.in/public-utility/sadar-hospital-araria/"
+										style="text-decoration:none;">Sadar Hospital Araria</a>
+									<a href="https://arwal.nic.in/public-utility/arwal-sadar-hospital/"
+										style="text-decoration:none;">Sadar Hospital Arwal</a>
+									<a href="https://banka.nic.in/public-utility/sadar-hospital/"
+										style="text-decoration:none;">Sadar Hospital Banka</a>
+									<a href="https://buxar.nic.in/public-utility/sadar-hospital/"
+										style="text-decoration:none;">Sadar Hospital Buxar</a>
+									<a href="https://jamui.nic.in/health/" style="text-decoration:none;">Sadar
+										Hospital
+										Jamui </a>
+									<a href="https://kaimur.nic.in/public-utility/sadar-hospital-bhabhua/"
+										style="text-decoration:none;">Sadar Hospital Kaimur </a>
+									<a href="https://kishanganj.nic.in/public-utility/sadar-hospital-kishanganj/"
+										style="text-decoration:none;">Sadar Hospital Kishanganj</a>
+									<a href="https://lakhisarai.nic.in/public-utility/sadar-hospital-lakhisarai/"
+										style="text-decoration:none;">Sadar Hospital Lakhisarai </a>
+									<a href="https://sheikhpura.nic.in/public-utility/district-hospital-sheikhpura/"
+										style="text-decoration:none;">Sadar Hospital Sheikhpura</a>
+									<a href="https://sheohar.nic.in/public-utility/sadar-hospital/"
+										style="text-decoration:none;">Sadar Hospital Sheohar</a>
+									<a href="https://supaul.nic.in/public-utility/sadar-hospitalsupaul/"
+										style="text-decoration:none;">Sadar Hospital Supaul</a>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<script>// Get the modal
+					var modal = document.getElementById("myModal");
+
+					// Get the button that opens the modal
+					var btn = document.getElementById("myBtn");
+
+					// Get the <span> element that closes the modal
+					var span = document.getElementsByClassName("close")[0];
+
+					// When the user clicks the button, open the modal 
+					btn.onclick = function () {
+						modal.style.display = "block";
+					}
+
+					// When the user clicks on <span> (x), close the modal
+					span.onclick = function () {
+						modal.style.display = "none";
+					}
+
+					// When the user clicks anywhere outside of the modal, close it
+					window.onclick = function (event) {
+						if (event.target == modal) {
+							modal.style.display = "none";
+						}
+					}</script>
+			</a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+			<a href="contact.php" style="text-decoration: none;">Contact Us</a>
+			<a href="About.html" style="text-decoration: none;">About Us</a>
+			<a href="log_in.php" style="text-decoration: none;"> Log In</a>
+			<a href="register_user.php" style="text-decoration: none;"> Sing Up</a>
+			<form class="d-flex">
+				<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+					style="margin-top: 13px; margin-left:300px;">
+				<button class="btn btn-outline-light" type="submit"
+					style="margin-top: 13px;margin-right: 20px;">Search</button>
+			</form>
+		</div>
+	</nav>
+	<br>
+	<!--navigation End-->
+	<!--slide show start-->
+	<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+				aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+				aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+				aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active" data-bs-interval="100">
+				<img src="IMG/slide_2.jpg" class="d-block w-100" alt="..." height="350px" width="100px">
+				<div class="carousel-caption d-none d-md-block">
+
+				</div>
+			</div>
+			<div class="carousel-item" data-bs-interval="2000">
+				<img src="IMG/slide_1.jpg" class="d-block w-100" alt="..." height="350px" width="100px">
+				<div class="carousel-caption d-none d-md-block">
+
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="IMG/slide_3.jpg" class="d-block w-100" alt="..." height="350px" width="100px">
+				<div class="carousel-caption d-none d-md-block">
+
+				</div>
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+	<!--slide show end-->
+	<br><br>
+	<!-- notice and head department start-->
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="card" style="width: 18rem;">
+					<img src="IMG/mangal-pandey.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">MANGAL PANDEY</h5>
+						<p class="card-text">Honble Health Minister <br>&#9742; 06122215330</p>
+
+						<a href="https://twitter.com/mangalpandeybjp?lang=en" class="btn btn-primary">More
+							Details</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+
+			</div>
+			<div class="col-sm-4" style="background-color: LightGray;">
+				<marquee scrolldelay="10" bgcolor="green" direction="up" height="435px"
+					style="background-color: yellow;" onmouseover="this.stop();"onmouseout="this.start();">
+					<center>
+
+						<a style="text-decoration:none ;" href="notice/132962264013595781.pdf">Important information for the joining of one year tenure
+							posts of junior Residents in State Medical College and Hospital under Advertisement
+							No.-2021</a><br>
+						<hr>
+
+						<a style="text-decoration:none ;" href="http://nicapp.bih.nic.in/Doctor/Registeration.aspx">Online Application for the posting
+							of couple Doctors in same od the nearer District between 09-05-2022 to 31-05-2022</a><br>
+						<hr>
+						<a style="text-decoration:none ;" href="notice/3rd.PDF">Resolution No.148(06)dated 24.02.2022 Regarding issue of fake
+							appointment/posting order of Staff Nurse Grade A by anti-social element</a><br>
+						<hr>
+
+						<a style="text-decoration:none ;" href="notice/4th.pdf">Guidelines for COVID-19 HOME ISOLATION</a><br>
+						<hr>
+						<a href="https://healthonline.bih.nic.in/">Online Application for SEWA SAMPOOSHTI of
+							Doctors</a><br>
+						<hr>
+						<a style="text-decoration:none ;" href="https://esanjeevaniopd.in/">e-Senjeevani telemedicine</a><br>
+						<hr>
+					</center>
+				</marquee>
+			</div>
+		</div>
+	</div>
+	<br><br>
+	<br>
+	<!-- notice and head department end-->
+	<!-- card start-->
+
+
+	<div class="card-group">
+		<div class="card" style="margin-left: 60px;background-color: #b3f0ff;;">
+			<center>
+				<img src="IMG/patna.jpg" class="card-img-top" alt="..."
+					style="height:300px ; width: 300px;border-radius: 300px;">
+				<div class="card-body">
+					<p>Sadar Hospital Patna</p>
+					<a href="https://patna.nic.in/public-utility-category/hospital/">
+						<button>View More</button>
+					</a>
+				</div>
+			</center>
+		</div>
+		&nbsp;&nbsp;
+		<div class="card" style="background-color: #b3f0ff;">
+			<center>
+				<img src="IMG/vaishali.jpg" class="card-img-top" alt="..."
+					style="height:300px ; width: 300px;border-radius: 300px;">
+				<div class="card-body">
+					<p>Sadar Hospital Vaishali</p>
+					<a href="https://vaishali.nic.in/public-utility-category/hospitals/">
+						<button>View More</button>
+					</a>
+
+				</div>
+			</center>
+
+		</div>
+		&nbsp;&nbsp;
+		<div class="card" style="margin-right:60px ;background-color: #b3f0ff;">
+			<center>
+				<img src="IMG/munger.jpg" class="card-img-top" alt="..."
+					style="height:300px ; width: 300px;border-radius: 300px;">
+				<div class="card-body">
+					<p>Sadar Hospital Munger</p>
+					<a href="https://munger.nic.in/public-utility-category/sadar-hospital-munger/">
+						<button>View More</button>
+					</a>
+				</div>
+			</center>
+		</div>
+	</div>
+	<br><br>
+	<div class="card-group">
+		<div class="card" style="margin-left: 60px;background-color: #b3f0ff;">
+			<center>
+				<img src="IMG/muzaffarpur.jpg" class="card-img-top" alt="..."
+					style="height:300px ; width: 300px;border-radius: 300px;">
+				<div class="card-body">
+					<p>Sadar Hospital Muzaffarpur</p>
+					<a href="https://muzaffarpur.nic.in/public-utility/sadar-hospital/">
+						<button>View More</button>
+					</a>
+
+				</div>
+			</center>
+		</div>
+		&nbsp;&nbsp;
+		<div class="card" style="background-color: #b3f0ff;">
+			<center>
+				<img src="IMG/bhagalpur.jpg" class="card-img-top" alt="..."
+					style="height:300px ; width: 300px;border-radius: 300px;">
+				<div class="card-body">
+					<p>Sadar Hospital Bhagalpur </p>
+					<a href="https://bhagalpur.nic.in/public-utility/district-hospital/">
+						<button>View More</button>
+					</a>
+
+				</div>
+			</center>
+		</div>
+		&nbsp;&nbsp;
+		<div class="card" style="margin-right:60px ;background-color: #b3f0ff;">
+			<center><img src="IMG/banka.jpg" class="card-img-top" alt="..."
+					style="height:300px ; width: 300px; border-radius: 300px;">
+				<div class="card-body">
+					<p>Sadar Hospital Banka</p>
+					<a href="https://banka.nic.in/public-utility/sadar-hospital/">
+						<button>View More</button>
+					</a>
+				</div>
+			</center>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<!-- card end-->
+	<!--footer start-->
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+				<a href="https://www.india.gov.in/">
+					<img src="IMG/india_gov.png" alt="" style="background-color:black; height: 70px;width: 80%;">
+				</a>
+			</div>
+			<div class="col-sm-2">
+				<a href="https://loksamvad.bihar.gov.in/users/home.aspx">
+					<img src="IMG/loksamvad.png" alt="" style="background-color:black; height: 70px;width: 80%;">
+				</a>
+			</div>
+			<div class="col-sm-2">
+				<a href="https://jaankari.bihar.gov.in/">
+					<img src="IMG/jankari.png" alt="" style="background-color:black; height: 70px;width: 80%;">
+				</a>
+			</div>
+			<div class="col-sm-2">
+				<a href="http://cmrf.bih.nic.in/users/home.aspx">
+					<img src="IMG/cmrf.png" alt="" style="background-color:black; height: 70px;width:80%;">
+				</a>
+			</div>
+			<div class="col-sm-2">
+				<a href="https://state.bihar.gov.in/health/cache/1/Asset/Jigyasa-Helpline.pdf">
+					<img src="IMG/helpline.png" alt="" style="background-color:black; height: 70px;width:80%;">
+				</a>
+			</div>
+			<div class="col-sm-2">
+				<a href="http://www.dashboard.bihar.gov.in/">
+					<img src="IMG/e-dash.png" alt="" style="background-color:black; height: 70px;width:80%;">
+				</a>
+			</div>
+		</div>
+	</div>
+	<br><br>
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-7">
+					<h6>About</h6>
+					<p> Health Department is working towards providing health care to the last
+						household and to the last person of the state ,i.e. Health Department is totally committed
+						in
+						building healthy
+						people, not only by making available quality Medicare facilities at the door step of every
+						citizen in the remotest
+						corner of the state, but also by providing medical facilities of the highest order, keeping
+						pace
+						with rapid
+						technological developments in the field of medicine.</p>
+				</div>
+				<div class="col-sm-2">
+
+				</div>
+
+				<div class="col-sm-3">
+					<h6>Quick Links</h6>
+					<ul class="footer-links">
+						<li><a href="home.html" style="text-decoration:none;">Home</a></li>
+						<li><a href="Medicines.html" style="text-decoration:none;">Medicines</a></li>
+						<li><a href="Bed_Book.html" style="text-decoration:none;">Bed Book</a></li>
+						<li><a href="hospital_name.html" style="text-decoration:none;">Hospital</a></li>
+						<li><a href="contact.html" style="text-decoration:none;">Contact Us</a></li>
+						<li><a href="About.html" style="text-decoration:none;">About</a></li>
+						<li><a href="log_in.php" style="text-decoration:none;">Log In</a></li>
+						<li><a href="register_user.php" style="text-decoration:none;">Sign Up</a></li>
+						<li><a href="review.html" style="text-decoration: none;">Review</a></li>
+					</ul>
+					<a href="#">
+						<button style="margin-left: 85%;">^Top</button>
+					</a>
+				</div>
+			</div>
+			<div style="margin-left:50% ;">
+				<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="https://www.google.co.in/" class="fa fa-google"></a>
+				<a href="https://www.youtube.com/channel/UCt4GgXBmGx1Hh27XNgz_dkg" class="fa fa-youtube"></a>
+				<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+			</div>
+			<hr>
+		</div>
+
+		<center>
+			<p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by Nikhil</p>
+		</center>
+
+
+
+
+		<br><br>
+
+	</footer>
+	<!--footer end-->
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+		integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+		integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+		crossorigin="anonymous"></script>
+
+</body>
+
+</html>
